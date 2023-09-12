@@ -12961,7 +12961,7 @@ html {
 }
 
 .tile .tile-item .tile-item-caption:hover {
-  opacity: 1;
+  opacity: 0.9;
 }
 
 .tile .tile-item .tile-item-caption .tile-item-caption-content {
@@ -13006,11 +13006,13 @@ html {
   background: green;
   background-image: url('../assets/img/portfolio/toppic.png');
   background-size: cover;
+  display: inline-block;
 }
 
-.content {
+.description {
   position: absolute;
   width: 100%;
   top: 100%;
   height: 100px;
+  margin-top: 2rem;
 }
