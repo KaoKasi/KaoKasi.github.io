@@ -12970,7 +12970,6 @@ html {
 
 .tile-image {
   min-width: 100%;
-  height: auto;
 }
 
 .work-cat-header {
@@ -12999,20 +12998,11 @@ html {
   --bs-body-font-family: 'IBM Plex Sans', sans-serif;
 }
 
-.cover-image1 {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: green;
-  background-image: url('../assets/img/portfolio/toppic.png');
-  background-size: cover;
-  display: inline-block;
-}
 
-.description {
-  position: absolute;
-  width: 100%;
-  top: 100%;
-  height: 100px;
-  margin-top: 2rem;
+.tile-cover {
+  padding: 0;
+  cursor: pointer;
+  position: relative;
+  display: block;
+  overflow: hidden;
 }
