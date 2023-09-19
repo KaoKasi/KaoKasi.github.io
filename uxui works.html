@@ -43,113 +43,137 @@
         </div>
     </nav>
     <!-- COVER -->
-   <div class="row tile mt-5">
-     <div class="tile-item tile">
-        <img class="img-fluid tile-image" src="assets/img/portfolio/toppic.png" alt="..." />
-    </div>
+    <div class="row tile mt-5">
+        <div class="tile-item tile">
+            <img class="img-fluid tile-image" src="assets/img/portfolio/toppic.png" alt="..." />
+        </div>
     </div>
 
     <main>
-            <!--description -->
-            <div class=" masthead masthead-heading text-center h1">E-commerce
-                
-                <div class="display-7">E-commerce is a set of artworks that were designed for each particular brand accross Thailand,Singapore and Malaysia.
+        <!--description -->
+        <div class=" masthead masthead-heading text-center h1">E-commerce
+            <div class="display-7">E-commerce is a set of artworks that were designed for each particular brand accross
+                Thailand,Singapore and Malaysia.
+            </div>
+        </div>
+        <!-- Beauty Buffet -->
+        <div class="row tile">
+            <div class="tile-item tile">
+                <div class="h1 text-center">Beauty Buffet
+                    <p class="display-7">a Thailand-based skincare brand. Direct-To-Consumer Brands, Beauty & Personal
+                        care.</p>
                 </div>
             </div>
-            <!-- Beauty Buffet -->
-            <div class="row tile">
-                <div class="tile-item tile">
-    
-                        <div class="h1 text-center">Beauty Buffet
-                            <p class="display-7">a Thailand-based skincare brand. Direct-To-Consumer Brands, Beauty & Personal care.</p>
+            <img class="img-fluid tile-image" src="assets/img/portfolio/BBF.jpg" alt="..." />
+        </div>
+        <!-- Carousel Modal -->
+        <div id="workCarouselModal" class="modal fade" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content">
+                    <div id="carouselExampleIndicators" class="carousel slide">
+                        <div class="carousel-indicators">
+                            <button id="slide1" type="button" data-bs-target="#carouselExampleIndicators"
+                                data-bs-slide-to="0" class="carousel-indicator active" aria-current="true"
+                                aria-label="Slide 1"></button>
+                            <button id="slide2" type="button" data-bs-target="#carouselExampleIndicators"
+                                data-bs-slide-to="1" class="carousel-indicator " aria-label="Slide 2"></button>
+                            <button id="slide3" type="button" data-bs-target="#carouselExampleIndicators"
+                                data-bs-slide-to="2" class="carousel-indicator " aria-label="Slide 3"></button>
                         </div>
-                    </div>
-                    <img class="img-fluid tile-image" src="assets/img/portfolio/BBF.jpg" alt="..." />
-                </div>
-                
-                </div>
-                
-
-<!-- <couresel -->
-     <div id="carouselExampleIndicators" class="carousel slide">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="assets/img/portfolio/cover-ss.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="assets/img/portfolio/cover-ct.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="assets/img/portfolio/cover-mc.jpg" class="d-block w-100" alt="...">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div> 
-
-
-       <!-- Portfolio-->
-        <div id="portfolio">
-            <div class="container-fluid p-0">
-                <div class="row g-0">
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/cover-mc.jpg" title="Project Name">
-                            <img class="img-fluid" src="assets/img/portfolio/cover-mc.jpg" alt="..." />
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/cover-ck.jpg" title="Project Name">
-                            <img class="img-fluid" src="assets/img/portfolio/cover-ck.jpg" alt="..." />
-                            <div class="portfolio-box-caption">
+                        <div class="carousel-inner">
+                            <div id="slide1" class="carousel-item active">
+                                <img src="assets/img/portfolio/cover-ss.jpg" class="d-block w-100" alt="...">
                             </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/cover-mc.jpg" title="Project Name">
-                            <img class="img-fluid" src="assets/img/portfolio/cover-mc.jpg" alt="..." />
-                            <div class="portfolio-box-caption">
+                            <div id="slide2" class="carousel-item">
+                                <img src="assets/img/portfolio/cover-ct.jpg" class="d-block w-100" alt="...">
                             </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-
-                <div class="tile-item tile" onclick="location.href='login.html';">
-                    <div class="tile-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                        <div class="text-white h1">Clarks
-                            <p class="display-7"> a British international shoe manufacturer and retailer majority owned by Viva Goods. It was founded in 1825 by Cyrus Clark in the village of Street, Somerset, England, where the company's headquarters remain.</p>
+                            <div id="slide3" class="carousel-item">
+                                <img src="assets/img/portfolio/cover-mc.jpg" class="d-block w-100" alt="...">
+                            </div>
                         </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
                     </div>
-                    <img class="img-fluid tile-image" src="assets/img/portfolio/clarks.jpg" alt="..." />
                 </div>
             </div>
+        </div>
 
-<!-- <modal -->
-            
+        <!-- Portfolio-->
+        <div class="row tile" id="portfolio">
+            <div class="col-md-4 col-sm-1 tile-item tile" data-bs-toggle="modal" data-bs-target="#workCarouselModal"
+                data-bs-set-active="slide1">
+                <div class="tile-item-caption d-flex align-items-center justify-content-center h-100 w-100 text-white">
+                </div>
+                <img class="img-fluid tile-image" src="assets/img/portfolio/cover-fp.jpg" alt="..." />
+            </div>
+            <div class="col-md-4 col-sm-1 tile-item tile" data-bs-toggle="modal" data-bs-target="#workCarouselModal"
+                data-bs-set-active="slide2">
+                <div class="tile-item-caption d-flex align-items-center justify-content-center h-100 w-100 text-white">
+                </div>
+                <img class="img-fluid tile-image" src="assets/img/portfolio/cover-ck.jpg" alt="..." />
+            </div>
+            <div class="col-md-4 col-sm-1 tile-item tile" data-bs-toggle="modal" data-bs-target="#workCarouselModal"
+                data-bs-set-active="slide3">
+                <div class="tile-item-caption d-flex align-items-center justify-content-center h-100 w-100 text-white">
+                </div>
+                <img class="img-fluid tile-image" src="assets/img/portfolio/cover-mc.jpg" alt="..." />
+            </div>
+        </div>
+
+        <div class="tile-item tile" onclick="location.href='login.html';">
+            <div class="tile-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                <div class="text-white h1">Clarks
+                    <p class="display-7"> a British international shoe manufacturer and retailer majority owned by Viva
+                        Goods. It was founded in 1825 by Cyrus Clark in the village of Street, Somerset, England, where
+                        the company's headquarters remain.</p>
+                </div>
+            </div>
+            <img class="img-fluid tile-image" src="assets/img/portfolio/clarks.jpg" alt="..." />
+        </div>
+        <div id="carouselExampleIndicators2" class="carousel slide">
+            <div class="carousel-indicators">
+                <button id="slide1" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0"
+                    class="carousel-indicator active" aria-current="true" aria-label="Slide 1"></button>
+                <button id="slide2" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1"
+                    class="carousel-indicator " aria-label="Slide 2"></button>
+                <button id="slide3" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="2"
+                    class="carousel-indicator " aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div id="slide1" class="carousel-item active">
+                    <img src="assets/img/portfolio/cover-ss.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div id="slide2" class="carousel-item">
+                    <img src="assets/img/portfolio/cover-ct.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div id="slide3" class="carousel-item">
+                    <img src="assets/img/portfolio/cover-mc.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
     </main>
-
-  <!-- Bootstrap core JS-->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-  <!-- Core theme JS-->
-  <script src="js/scripts.js"></script>
-    
-
-
-
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>

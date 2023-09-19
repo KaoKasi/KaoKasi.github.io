@@ -51,5 +51,28 @@ window.addEventListener('DOMContentLoaded', event => {
         });
     });
 
-});
+    const workCarouselModal = document.getElementById('workCarouselModal')
+    if (workCarouselModal) {
+        workCarouselModal.addEventListener('show.bs.modal', event => {
+            const button = event.relatedTarget
+            const targetSlideID = button.getAttribute('data-bs-set-active')
 
+            // set active carousel item
+            const carouselItems = workCarouselModal.querySelectorAll('.carousel-item')
+            carouselItems.forEach(carouselItem => {
+                carouselItem.classList.remove('active')
+            });
+            const selectedCarouselItem = workCarouselModal.querySelector(`.carousel-inner #${targetSlideID}`)
+            selectedCarouselItem.classList.add('active')
+
+            // set active carousel indicator
+            const carouselIndicators = workCarouselModal.querySelectorAll('.carousel-indicator')
+            carouselIndicators.forEach(carouselIndicator => {
+                carouselIndicator.classList.remove('active')
+            });
+            const selectedCarouselIndicators = workCarouselModal.querySelector(`.carousel-indicators #${targetSlideID}`)
+            selectedCarouselIndicators.classList.add('active')
+        })
+    }
+
+});
