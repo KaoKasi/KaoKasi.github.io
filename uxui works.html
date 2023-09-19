@@ -13,8 +13,9 @@
     <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
     <!-- Google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
-        type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap" rel="stylesheet">
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
@@ -50,22 +51,83 @@
 
     <main>
             <!--description -->
-            <div class="masthead text-center">
-                <h1 class="masthead-subheading text-uppercase"> E-commerce
-                </h1>
-            <div class="display-7">E-commerce is a set of artworks that were designed for each particular brand accross Thailand,Singapore and Malaysia. </div>
+            <div class=" masthead masthead-heading text-center h1">E-commerce
+                
+                <div class="display-7">E-commerce is a set of artworks that were designed for each particular brand accross Thailand,Singapore and Malaysia.
+                </div>
             </div>
-
-            <!-- Body -->
+            <!-- Beauty Buffet -->
             <div class="row tile">
-                <div class="tile-item tile" onclick="location.href='login.html';">
-                    <div class="tile-item-caption d-flex align-items-center justify-content-center h-100 w-100 text-white">
-                        <div class="h1">Beauty Buffet
+                <div class="tile-item tile">
+    
+                        <div class="h1 text-center">Beauty Buffet
                             <p class="display-7">a Thailand-based skincare brand. Direct-To-Consumer Brands, Beauty & Personal care.</p>
                         </div>
                     </div>
                     <img class="img-fluid tile-image" src="assets/img/portfolio/BBF.jpg" alt="..." />
                 </div>
+                
+                </div>
+                
+
+<!-- <couresel -->
+     <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/img/portfolio/cover-ss.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/portfolio/cover-ct.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/portfolio/cover-mc.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div> 
+
+
+       <!-- Portfolio-->
+        <div id="portfolio">
+            <div class="container-fluid p-0">
+                <div class="row g-0">
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/portfolio/cover-mc.jpg" title="Project Name">
+                            <img class="img-fluid" src="assets/img/portfolio/cover-mc.jpg" alt="..." />
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/portfolio/cover-ck.jpg" title="Project Name">
+                            <img class="img-fluid" src="assets/img/portfolio/cover-ck.jpg" alt="..." />
+                            <div class="portfolio-box-caption">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/portfolio/cover-mc.jpg" title="Project Name">
+                            <img class="img-fluid" src="assets/img/portfolio/cover-mc.jpg" alt="..." />
+                            <div class="portfolio-box-caption">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
                 <div class="tile-item tile" onclick="location.href='login.html';">
                     <div class="tile-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                         <div class="text-white h1">Clarks
@@ -75,7 +137,16 @@
                     <img class="img-fluid tile-image" src="assets/img/portfolio/clarks.jpg" alt="..." />
                 </div>
             </div>
+
+<!-- <modal -->
+            
     </main>
+
+  <!-- Bootstrap core JS-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Core theme JS-->
+  <script src="js/scripts.js"></script>
+    
 
 
 

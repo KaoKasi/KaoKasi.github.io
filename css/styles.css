@@ -80,6 +80,7 @@
   --bs-highlight-bg: #fff3cd;
 }
 
+
 *,
 *::before,
 *::after {
@@ -12976,13 +12977,21 @@ html {
   font-size: 6rem;
   margin-bottom: -0.75rem;
 }
-
+.crea-cat-header {
+  font-size: 4rem;
+  margin-bottom: -0.75rem;
+}
 .coverheight {
   height: 100%;
 
 }
 
 .display-7 {
+  font-weight: lighter !important;
+  font-size: large;
+}
+
+.display-8 {
   font-weight: lighter !important;
   font-size: small;
 }
@@ -12995,7 +13004,8 @@ html {
 }
 
 :root {
-  --bs-body-font-family: 'IBM Plex Sans', sans-serif;
+  --bs-body-font-family:'IBM Plex Sans', sans-serif;
+
 }
 
 
@@ -13006,3 +13016,4 @@ html {
   display: block;
   overflow: hidden;
 }
+
