@@ -93,6 +93,16 @@
   }
 }
 
+/* Disable horizontal scroll */
+html, body {
+  overflow-x: hidden;
+}
+
+body {
+  position: relative
+}
+/* ========================= */
+
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
