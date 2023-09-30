@@ -12866,8 +12866,6 @@ html {
   font-size: 2.5rem;
   display: block;
   font-weight: bold;
-
-
 }
 
 .masthead .masthead-subheading {
@@ -13011,7 +13009,7 @@ html {
 }
 .project-header {
   font-family:  "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-weight: 700;;
+  font-weight: 700;
   font-size: 2rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -13026,7 +13024,6 @@ html {
 
 :root {
   --bs-body-font-family:'IBM Plex Sans', sans-serif;
-
 }
 
 
@@ -13052,4 +13049,9 @@ html {
   height: 100%; /* Ensure the image fills the container vertically */
   display: block; /* Remove any extra space around the image */
   margin: 0 auto; /* Center the image horizontally */
+}
+
+.font-bold {
+  font-family:  "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
 }
