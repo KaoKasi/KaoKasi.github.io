@@ -13051,7 +13051,7 @@ html {
   margin: 0 auto; /* Center the image horizontally */
 }
 
-.font-bold {
-  font-family:  "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+.font-ibm-bold {
+  font-family: 'IBM Plex Sans', sans-serif;
   font-weight: 700;
 }
