@@ -11,6 +11,7 @@
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -13054,4 +13055,7 @@ html {
 .font-ibm-bold {
   font-family: 'IBM Plex Sans', sans-serif;
   font-weight: 700;
+}
+.youtube {
+  width:100% ;
 }
