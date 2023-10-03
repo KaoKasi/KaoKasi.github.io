@@ -13069,6 +13069,7 @@ html {
 .page-top-banner-image {
   width: 100%;
   min-height: 50vh;
+  max-height: 75vh;
   object-fit: cover;
   object-position: center;
 }
