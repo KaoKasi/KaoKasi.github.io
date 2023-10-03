@@ -100,7 +100,7 @@ html, body {
 }
 
 body {
-  position: relative
+  position: relative;
 }
 /* ========================= */
 
@@ -13058,4 +13058,17 @@ html {
 }
 .youtube {
   width:100% ;
+}
+
+.page-top-banner {
+  padding-top: 4rem;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.page-top-banner-image {
+  width: 100%;
+  min-height: 50vh;
+  object-fit: cover;
+  object-position: center;
 }
