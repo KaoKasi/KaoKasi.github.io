@@ -13073,3 +13073,17 @@ html {
   object-fit: cover;
   object-position: center;
 }
+
+.project-container {
+  max-width: 80%;
+}
+
+.chinatown-tile {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.img-fluid-vertical {
+  max-height: 100%;
+  width: auto;
+}
