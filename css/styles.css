@@ -13087,3 +13087,46 @@ html {
   max-height: 100%;
   width: auto;
 }
+
+/* custom modal for ecommerce page */
+.modal-custom {
+  --bs-modal-border-radius: 0rem;
+}
+
+.modal-content-custom {
+  background-color: transparent;
+  border: none;
+}
+
+.modal-header-custom {
+  background-color: transparent;
+  border-bottom: none;
+}
+
+.modal-header-custom .btn-close {
+  color: #fff;
+  opacity: 0.5;
+}
+
+.modal-body-custom {
+  padding: 0;
+}
+
+/* custom carousel for ecommerce page */
+.carousel-custom {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.carousel-control-prev-custom {
+  margin-left: -50px;
+}
+
+.carousel-control-next-custom {
+  margin-right: -50px;
+}
+
+.carousel-item-custom {
+  max-height: 75vh;
+  overflow-y: scroll;
+}
