@@ -6671,7 +6671,6 @@ fieldset:disabled .btn {
   display: none;
   float: left;
   width: 100%;
-  margin-right: -100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   transition: transform 0.6s ease-in-out;
@@ -13127,6 +13126,6 @@ html {
 }
 
 .carousel-item-custom {
-  max-height: 75vh;
+  max-height: 100vh;
   overflow-y: scroll;
 }
