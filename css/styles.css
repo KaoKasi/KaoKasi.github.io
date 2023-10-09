@@ -13126,6 +13126,6 @@ html {
 }
 
 .carousel-item-custom {
-  max-height: 100vh;
+  max-height: 85vh;
   overflow-y: scroll;
 }
