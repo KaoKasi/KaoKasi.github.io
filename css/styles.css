@@ -13131,3 +13131,15 @@ html {
   padding-top: calc(3rem + 74px);
   padding-bottom: 2.5rem;
 }
+
+.rebranding-bg-highlight {
+  background-color: #B8E2FF;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.sanctuarys-bg-highlight {
+  background-color: #B8E2FF;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
