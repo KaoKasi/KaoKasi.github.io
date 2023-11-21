@@ -34,7 +34,7 @@
     <nav class="navbar navbar-expand-lg bg-primary text-uppercase fixed-top text-white" id="mainNav">
         <div class="container">
             <a class="navbar-brand text-white" href="index.html#page-top">Kao's works</a>
-            <button class="navbar-toggler text-uppercase bg-secondary text-white rounded" type="button"
+            <button class="navbar-toggler text-uppercase bg-primary text-white rounded" type="button"
                 data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive"
                 aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fas fa-bars"></i>
@@ -42,7 +42,8 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item dropdown mx-0 mx-lg-1">
-                        <a class="nav-link py-3 px-0 px-lg-3 dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link py-3 px-0 px-lg-3 dropdown-toggle" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
                             Works
                         </a>
                         <ul class="dropdown-menu" style="opacity: 0.9;">
@@ -59,34 +60,79 @@
                             <li><a class="dropdown-item" href="icfa.html">ICFA</a></li>
                             <li><a class="dropdown-item" href="login.html">Website design</a></li>
                             <!-- Kao can add more work here -->
-        
-                            <li><hr class="dropdown-divider"></li>
+
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
                             <li><a class="dropdown-item" href="#">Something else here</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3" href="about.html">About</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3" href="#about">About</a></li>
                 </ul>
             </div>
         </div>
     </nav>
     <!-- Masthead-->
-    <header class="masthead bg-primary text-white" style="min-height:66vh">
-        <div class="container d-flex align-items-center flex-column col-lg-8"
-            style="padding-left: 2rem; padding-right: 2rem;">
-            <div class="row">
+    <header>
+
+
+        <div class="row">
+            <div class="col-sm-12">
+                <!-- Masthead Heading-->
+                <h2 class="masthead-heading text-uppercase mb-3"><i class="fa-solid fa-quote-left"></i>Hello!
+                    I'm Kao</h2>
+
+                <!-- About Section Content-->
+                <div class="ratio ratio-16x9">
+                    <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450"
+                        src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FbSho5vzc1OdEjlTKeYR5NX%2FUser-Journey%3Fpage-id%3D191%253A35435%26type%3Ddesign%26node-id%3D191-35461%26viewport%3D-475%252C802%252C0.33%26t%3DPFpdr58AQE9xpu4p-1%26scaling%3Dscale-down-width%26mode%3Ddesign"
+                        allowfullscreen></iframe>
+                </div>
+
                 <div class="col-lg-12">
-                    <!-- Masthead Heading-->
-                    <h2 class="masthead-subheading text-uppercase mb-3">Please enter the password</h2>
-                    <!-- About Section Content-->
-                    <form>
-                        <div class="mb-3">
-                            <input type="password" class="form-control" placeholder="password">
-                        </div>
-                        <button type="submit" class="btn btn-secondary">Submit</button>
-                    </form>
+                    <div class="mt-4 align-items-center text-center">
+                        <a class="btn btn-xl btn-outline-dark" href="assets/kasipang_resume.pdf" target="_blank">
+                            <i class="fas fa-download me-2"></i>
+                            Resume
+                        </a>
+                    </div>
                 </div>
             </div>
+        </div>
+
     </header>
+
+    <!-- Placeholder for #works tag -->
+    <div id="works"></div>
+    <!-- Nav underline -->
+    <ul class="nav nav-underline mb-5 mt-5 justify-content-center">
+        <li class="nav-item ms-5 me-5">
+            <a class="nav-link text-center font-ibm-bold" aria-current="page" href="#uxui">
+                <h1 class="work-cat-header">01</h1>
+                <i class="fa-regular fa-object-group fa-xl"></i> UXUI
+            </a>
+        </li>
+        <li class="nav-item ms-5 me-5">
+            <a class="nav-link text-center font-ibm-bold" aria-current="page" href="#space">
+                <h1 class="work-cat-header">02</h1>
+                <i class="fa-solid fa-tree-city fa-xl"></i> Space
+            </a>
+        </li>
+        <li class="nav-item ms-5 me-5">
+            <a class="nav-link text-center font-ibm-bold" aria-current="page" href="#graphic">
+                <h1 class="work-cat-header">03</h1>
+                <i class="fa-solid fa-pen-ruler fa-xl"></i> Graphic
+            </a>
+        </li>
+        <li class="nav-item ms-5 me-5">
+            <a class="nav-link text-center font-ibm-bold" aria-current="page" href="#web-design">
+                <h1 class="work-cat-header">04</h1>
+                <i class="fa-solid fa-code fa-xl"></i> Website
+            </a>
+        </li>
+    </ul>
+
+
     <!-- Footer-->
     <footer class="footer text-center">
         <div class="container">
