@@ -13071,6 +13071,13 @@ html {
   object-position: center;
 }
 
+.page-top-banner-iframe {
+  width: 100%;
+  min-height: 60vh;
+  object-fit: cover;
+  object-position: center;
+}
+
 .project-container {
   max-width: 80%;
 }
