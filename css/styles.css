@@ -13074,6 +13074,7 @@ html {
 .page-top-banner-iframe {
   width: 100%;
   min-height: 60vh;
+  max-height: 85vh;
   object-fit: cover;
   object-position: center;
 }
